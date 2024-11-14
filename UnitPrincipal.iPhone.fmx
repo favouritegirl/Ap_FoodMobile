@@ -1,0 +1,224 @@
+inherited FrmPrincipal_iPhone: TFrmPrincipal_iPhone
+  ClientHeight = 460
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited rectAbas: TRectangle
+    Position.Y = 398.000000000000000000
+    Size.Width = 320.000000000000000000
+    inherited imgAba1: TImage
+      MultiResBitmap.Height = 54
+      Size.Width = 80.816329956054690000
+    end
+    inherited imgAba3: TImage
+      MultiResBitmap.Height = 54
+      Position.X = 238.560256958007800000
+      Size.Width = 80.615524291992190000
+    end
+    inherited imgAba2: TImage
+      MultiResBitmap.Height = 54
+      MultiResBitmap.Width = 99
+      Position.X = 130.612243652343800000
+      Size.Width = 66.122451782226560000
+    end
+  end
+  inherited TabControl: TTabControl
+    Size.Width = 320.000000000000000000
+    Size.Height = 398.000000000000000000
+    Sizes = (
+      320s
+      398s
+      320s
+      398s
+      320s
+      398s)
+    inherited TabItem1: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited Label1: TLabel
+          Size.Width = 320.000000000000000000
+        end
+        inherited Image4: TImage
+          MultiResBitmap.Height = 75
+          MultiResBitmap.Width = 113
+        end
+      end
+      inherited lvPedidos: TListView
+        Size.Width = 320.000000000000000000
+        Size.Height = 292.000000000000000000
+      end
+      inherited rectFiltro: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited rectBtnFiltro: TRectangle
+          Position.X = 246.583786010742200000
+          Size.Width = 63.416397094726560000
+          inherited btnFiltrar: TSpeedButton
+            Size.Width = 63.416397094726560000
+          end
+        end
+        inherited rectFiltroData: TRectangle
+          Size.Width = 100.922668457031300000
+          inherited lblFiltroData: TLabel
+            Size.Width = 65.922668457031250000
+          end
+          inherited Image1: TImage
+            MultiResBitmap.Height = 15
+            MultiResBitmap.Width = 18
+            Position.X = 75.922668457031250000
+          end
+        end
+        inherited rectFiltroStatus: TRectangle
+          Position.X = 122.518554687500000000
+          Size.Width = 113.690582275390600000
+          inherited lblFiltroStatus: TLabel
+            Size.Width = 78.690582275390630000
+          end
+          inherited Image2: TImage
+            MultiResBitmap.Height = 15
+            MultiResBitmap.Width = 18
+            Position.X = 88.690582275390630000
+          end
+        end
+      end
+      inherited Image11: TImage
+        MultiResBitmap.Height = 7493
+        MultiResBitmap.Width = 7493
+      end
+    end
+    inherited TabItem2: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle2: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited Label2: TLabel
+          Size.Width = 320.000000000000000000
+        end
+        inherited Image5: TImage
+          MultiResBitmap.Height = 75
+          MultiResBitmap.Width = 113
+        end
+        inherited imgAddCategoria: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+          Position.X = 277.000000000000000000
+        end
+      end
+      inherited lvCardapio: TListView
+        Size.Width = 320.000000000000000000
+        Size.Height = 348.000000000000000000
+      end
+    end
+    inherited TabItem3: TTabItem
+      Size.Width = 11.000000000000000000
+      Size.Height = 11.000000000000000000
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      inherited Rectangle3: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited Label3: TLabel
+          Size.Width = 320.000000000000000000
+        end
+        inherited Image6: TImage
+          MultiResBitmap.Height = 75
+          MultiResBitmap.Width = 113
+          Size.Width = 1.000000000000000000
+        end
+      end
+      inherited rectItemConfig: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited Image3: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+        end
+        inherited Label6: TLabel
+          Size.Width = 233.000000000000000000
+        end
+        inherited Image7: TImage
+          MultiResBitmap.Height = 38
+          MultiResBitmap.Width = 37
+          Position.X = 288.000000000000000000
+        end
+      end
+      inherited rectItemLogout: TRectangle
+        Size.Width = 320.000000000000000000
+        inherited Image8: TImage
+          MultiResBitmap.Height = 64
+          MultiResBitmap.Width = 64
+        end
+        inherited Label7: TLabel
+          Size.Width = 233.000000000000000000
+        end
+        inherited Image9: TImage
+          MultiResBitmap.Height = 38
+          MultiResBitmap.Width = 37
+          Position.X = 288.000000000000000000
+        end
+      end
+    end
+  end
+  inherited imgPedido: TImage
+    MultiResBitmap.Height = 64
+    MultiResBitmap.Width = 64
+  end
+  inherited imgData: TImage
+    MultiResBitmap.Height = 64
+    MultiResBitmap.Width = 64
+  end
+  inherited imgEndereco: TImage
+    MultiResBitmap.Height = 64
+    MultiResBitmap.Width = 64
+  end
+  inherited imgFone: TImage
+    MultiResBitmap.Height = 64
+    MultiResBitmap.Width = 64
+  end
+  inherited imgValor: TImage
+    MultiResBitmap.Height = 64
+    MultiResBitmap.Width = 64
+  end
+  inherited imgAberto: TImage
+    MultiResBitmap.Height = 26
+    MultiResBitmap.Width = 91
+  end
+  inherited ImgEntrega: TImage
+    MultiResBitmap.Height = 26
+    MultiResBitmap.Width = 81
+  end
+  inherited imgCancelado: TImage
+    MultiResBitmap.Height = 26
+    MultiResBitmap.Width = 101
+  end
+  inherited ImgFinalizado: TImage
+    MultiResBitmap.Height = 26
+    MultiResBitmap.Width = 97
+  end
+  inherited imgMais: TImage
+    MultiResBitmap.Height = 38
+    MultiResBitmap.Width = 37
+  end
+  inherited imgMenu: TImage
+    MultiResBitmap.Height = 26
+    MultiResBitmap.Width = 6
+  end
+  inherited lytMenuCardapio: TLayout
+    inherited rectMenuCardapio: TRectangle
+      inherited btnCima: TSpeedButton
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited btnBaixo: TSpeedButton
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited btnProdutos: TSpeedButton
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited btnCancelar: TSpeedButton
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+end
